@@ -11,19 +11,19 @@
 
 }
 
-.left {
+.header .left {
     /* flex-grow: 1; */
     display: flex;
 }
 
-.right {
+.header .right {
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo {
+.left .logo {
     
     height: 40px;
     width: 100px;
@@ -110,7 +110,7 @@
     display: none;
 }
 
-.logo:hover, .login-router:hover, .orders-router:hover, .cart:hover {
+.left .logo:hover, .login-router:hover, .orders-router:hover, .cart:hover {
     /* padding: 6px 8px; */
     border: 1px white solid;
     border-radius: 3px;
@@ -118,11 +118,11 @@
 }
 
 @media ( max-width: 1007px) {
-    .left {
+    .header .left {
         flex-direction: column;
         align-items: center;
     }
-    .right {
+    .header .right {
         height: calc(100vh - 70px);
         width: 0;
         overflow: hidden;

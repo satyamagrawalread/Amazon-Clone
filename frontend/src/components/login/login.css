@@ -1,0 +1,159 @@
+
+.logo-section {
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .logo, .sign-up .logo {
+    
+    height: 31px;
+    width: 103px;
+    
+    /* margin: auto 50px; */
+    cursor: pointer;
+    /* padding: 8px 8px; */
+    box-sizing: border-box;
+    /* background-color: green; */
+    
+    
+}
+
+.outer-box .inner-box {
+    width: 700px;
+    /* height: 200px; */
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.inner-box .a-section {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+.a-box {
+    border: 1px #ddd solid;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.a-box-inner {
+    margin: 20px 26px;
+}
+
+.a-box-inner .sign-in-text {
+    font-size: 28px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-weight: 400;
+}
+
+.inner-box .a-form-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.inner-box input[type='email'], .inner-box input[type='text'], .inner-box input[type='tel'] {
+    display: block;
+    width: 100%;
+    height: 31px;
+    box-sizing: border-box;
+    padding: 3px 7px;
+    border-radius: 4px;
+    border: 1px #555 solid;
+}
+
+.inner-box input:focus {
+    outline: none;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.8);
+}
+
+.inner-box label .password-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-box label .password-row a {
+    color: #0066c0;
+}
+
+.inner-box label .password-row a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+
+.inner-box .signin-btn {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f6cf20;
+    border: 0.5px #f9ce1e solid;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.inner-box .signin-btn:hover {
+    background-color: #F7CA00;
+    border: 0.5px #ffdc4f solid;
+}
+
+.inner-box .rememberMe-label {
+    display: flex;
+    align-items: center;
+}
+
+.inner-box label input {
+}
+
+.inner-box label span {
+    font-size: 14px;
+}
+
+.inner-box .a-divider {
+    
+    width: 350px;
+    height: 1px;
+    background-color: #d0cfcf;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.inner-box .a-divider .a-divider-text {
+    position: relative;
+    left: 110px;
+    top: -12px;
+    display: inline;
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 8px;
+    color: #767676;
+}
+
+.inner-box .create-account-btn {
+    display: block;
+    width: 350px;
+    /* box-sizing: border-box; */
+    background-color: white;
+    border: 0.5px #a6a5a5 solid;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.inner-box .create-account-btn:hover {
+    background-color: #f8fcfc;
+}
+
+.inner-box .rememberMe-label a {
+    font-size: 15px;
+}
