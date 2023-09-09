@@ -6,3 +6,10 @@
     height: 100%;
 }
 
+.sample {
+    width: 100px;
+    height: auto;
+    border: 1px green solid;
+    word-wrap: break-word;
+}
+

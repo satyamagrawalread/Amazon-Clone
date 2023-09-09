@@ -28,32 +28,32 @@ function SecondHeader({ showHmenu, setShowHmenu }) {
                         <li>                        <a className='hmenu-item'>Movers and Shakers</a></li>
                         <li className='hmenu-seperator'></li>
                         <li><a className='hmenu-item hmenu-title'>Digital Content And Devices</a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Echo & Alexa</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Fire TV</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Kindle E-Readers & eBooks</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Audible Audiobooks</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Amazon Prime Video</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Amazon Prime Music</div>
                             <BsChevronRight className='hmenu-arrow' />
 
@@ -61,71 +61,71 @@ function SecondHeader({ showHmenu, setShowHmenu }) {
                         <li className='hmenu-seperator'></li>
                         <li><a className='hmenu-item hmenu-title'>Shop By Category</a></li>
 
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Mobiles, Computers</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>TV, Appliances, Electronics</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Men's Fashion</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Women's Fashion</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
                         {<ul className={` hmenu-compress-section ${seeAllByCategory ? 'compressed' : ''}`}>{seeAllByCategory ? [
-                            <li className="hmenu-mini-divider"></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='1' className="hmenu-mini-divider"></li>,
+                            <li key='2'><a className='hmenu-item'>
                                 <div>Home, Kitchen, Pets</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='3'><a className='hmenu-item'>
                                 <div>Beauty, Health, Grocery</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='4'><a className='hmenu-item'>
                                 <div>Sports, Fitness, Bags, Luggage</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='5'><a className='hmenu-item'>
                                 <div>Toys, Baby Products, Kids Fashion</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='6'><a className='hmenu-item'>
                                 <div>Car, Motorbike, Industrial</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='7'><a href className='hmenu-item'>
                                 <div>Books</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li><a href className='hmenu-item'>
+                            <li key='8'><a href className='hmenu-item'>
                                 <div>Movies, Music & Video Games</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li onClick={() => setSeeAllByCategory(false)}>
-                            <a className='hmenu-item hmenu-compressed-btn'>
-                                <div>See Less</div>
-                                <BsChevronUp className='hmenu-arrow' />
-                            </a>
-                        </li>
+                            <li key='9' onClick={() => setSeeAllByCategory(false)}>
+                                <a className='hmenu-item hmenu-compressed-btn'>
+                                    <div>See Less</div>
+                                    <BsChevronUp className='hmenu-arrow' />
+                                </a>
+                            </li>
                         ] : [
-                            <li onClick={() => setSeeAllByCategory(true)}>
+                            <li key='1' onClick={() => setSeeAllByCategory(true)}>
                                 <a className='hmenu-item hmenu-compressed-btn'>
                                     <div>See All</div>
                                     <BsChevronDown className='hmenu-arrow' />
@@ -134,39 +134,39 @@ function SecondHeader({ showHmenu, setShowHmenu }) {
                         ]}</ul>}
                         <li className='hmenu-seperator'></li>
                         <li><a className='hmenu-item hmenu-title'>Programs & Features</a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Gift Cards & Monile Recharges</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Amazon Launchpad</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Flight Tickets</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Buy more, Save more</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
                         <li className="hmenu-seperator"></li>
                         <li><a className='hmenu-item hmenu-title'>Help & Settings</a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Your Account</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Customer Service</div>
                             <BsChevronRight className='hmenu-arrow' />
 
                         </a></li>
-                        <li><a href className='hmenu-item'>
+                        <li><a className='hmenu-item'>
                             <div>Sign Out</div>
                             <BsChevronRight className='hmenu-arrow' />
 

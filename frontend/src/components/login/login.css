@@ -1,4 +1,7 @@
-
+.sign-up {
+    width: 100vw;
+    overflow: hidden;
+}
 .logo-section {
     margin: 30px auto;
     text-align: center;

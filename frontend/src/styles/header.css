@@ -137,8 +137,8 @@
         padding: 20px auto;
         transition: all 1s ease-out;
     }
-    .show-right {
-        width: 300px;
+    .header .show-right {
+        width: auto;
         height: calc(100vh - 70px);
         background-color: #131921;
         position: absolute;
@@ -166,5 +166,6 @@
         margin-right: 10px;
         text-align: right;
         margin-top: 10px;
+        cursor: pointer;
     }
 }
