@@ -108,12 +108,12 @@ function SecondHeader({ showHmenu, setShowHmenu }) {
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li key='7'><a href className='hmenu-item'>
+                            <li key='7'><a href='' className='hmenu-item'>
                                 <div>Books</div>
                                 <BsChevronRight className='hmenu-arrow' />
 
                             </a></li>,
-                            <li key='8'><a href className='hmenu-item'>
+                            <li key='8'><a href='' className='hmenu-item'>
                                 <div>Movies, Music & Video Games</div>
                                 <BsChevronRight className='hmenu-arrow' />
 

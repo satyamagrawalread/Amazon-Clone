@@ -6,10 +6,13 @@ import './App.css'
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import SecondHeader from './components/SecondHeader';
-import Login from './components/login/login';
+import Login from './components/login/Login';
 import SignUp from './components/login/SignUp';
-import Cart from './components/cart/Cart';
+import Item from './components/item/Item';
 import Sample1 from './components/sample/Sample1';
+import Cart from './cart/Cart';
+import Maincomp from './components/home/maincomp';
+import SignedUp from './components/login/SignedUp';
 
 function App() {
   // const location = useLocation();
@@ -34,10 +37,13 @@ function App() {
             {hideHeaders ? null : <SecondHeader showHmenu={showHmenu} setShowHmenu={setShowHmenu} />}
             <Routes>
               <Route path='/' element={<HomePage />} />
-              <Route path='cart' element={<Cart />} />
+              <Route path='home' element={<Maincomp />} />
+              <Route path='item/:id' element={<Item />} />
               <Route path='login' element={<Login />} />
               <Route path='signup' element={<SignUp />} />
               <Route path='sample1' element={<Sample1 />} />
+              <Route path='cart' element={<Cart />} />
+              <Route path='signed/:name' element={<SignedUp />} />
             </Routes>
           </div>
         </div>

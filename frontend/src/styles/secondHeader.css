@@ -9,7 +9,7 @@
     background-color: #232f3e;
     display: flex;
     box-sizing: border-box;
-    z-index: 1;
+    z-index: 5;
     /* width: 100%; */
 }
 

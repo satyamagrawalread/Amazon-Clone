@@ -1,12 +1,12 @@
-.cart-section {
+.item-section {
 }
 
-.cart-container {
+.item-container {
     display: grid;
     grid-template-columns: 3fr 4fr;
 }
 
-.left-cart {
+.left-item {
     position: sticky;
     top: 55px;
     height: calc(100vh - 109px);
@@ -16,18 +16,18 @@
     /* margin: 20px 0; */
 }
 
-.left-cart img {
+.left-item img {
     /* height: calc(100vh - 109px); */
     height: calc(100vh - 109px - 32px - 50px);
     object-fit: contain;
 }
 
-.cart-btn {
+.item-btn {
     display: flex;
     justify-content: space-evenly;
 }
 
-.cart-btn1 {
+.item-btn1 {
     width: 200px;
     background: #FFD814;
     /* border-color: #FCD200; */
@@ -37,11 +37,11 @@
     cursor: pointer;
 }
 
-.cart-btn1:hover {
+.item-btn1:hover {
     background: #F7CA00;
 }
 
-.cart-btn2 {
+.item-btn2 {
     width: 200px;
     background: #FFA41C;
     /* border-color: #FF8F00; */
@@ -51,11 +51,11 @@
     cursor: pointer;
 }
 
-.cart-btn2:hover {
+.item-btn2:hover {
     background: #FA8900;
 }
 
-.right-cart {
+.right-item {
     display: flex;
     flex-direction: column;
     /* height: 1200px; */
@@ -68,7 +68,7 @@
     /* flex-shrink: 0; */
 }
 
-.right-cart .description {
+.right-item .description {
     word-wrap: break-word;
     font-size: 24px;
     line-height: 32px;
@@ -76,51 +76,57 @@
     
 }
 
-.right-cart .divider {
-    height: 1px;
+.right-item .divider {
     width: 100%;
+    border-top: 1px solid #BBBFBF;
     margin-top: 5px;
     margin-bottom: 19px;
     /* border: 1px solid black; */
-    background-color: #BBBFBF;
+    /* background-color: #BBBFBF; */
     
 }
 
-.right-cart .deal-price span, .right-cart .saving span {
+.right-item .deal-price span, .right-item .saving span {
     color: #B12704;
 }
 
-.right-cart .discount-box {
+.right-item .discount-box {
     color: #B12704;
     font-size: 19px;
 }
 
-.right-cart .discount-box .discount span {
+.right-item .discount-box .discount span {
     color: #111;
 }
 
-.right-cart .discount-box .free-delivery-text {
+.right-item .discount-box .free-delivery-text {
     font-size: 15px;
     color: #007185;
 }
 
-.right-cart .discount-box .free-delivery-text span {
+.right-item .discount-box .free-delivery-text span {
     color: #111;
     font-weight: 600;
 }
 
-.right-cart .discount-box .fastest-delivery-text {
+.right-item .discount-box .fastest-delivery-text {
     font-size: 15px;
     color: #5a5959;
 }
 
-.right-cart .discount-box .fastest-delivery-text span {
+.right-item .discount-box .fastest-delivery-text span {
     color: #111;
     font-weight: 600;
 }
 
-.right-cart .more-description {
+.right-item .more-description {
     padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right-item .more-description span {
+    color: #5a5959;
 }
 
 .container-2 {
@@ -128,3 +134,4 @@
     width: 100vw;
     background-color: red;
 }
+

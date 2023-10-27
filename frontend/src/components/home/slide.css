@@ -1,0 +1,45 @@
+.products-section {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    height: 100%;
+}
+.products-deal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider_horizontal {
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+.product-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-img {
+    display: inline;
+}
+
+
+.product-items .product-img img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.view-btn {
+    height: 30px;
+    width: 70px;
+    margin: auto 10px;
+    background-color: rgb(58, 58, 251);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products-deal h3 {
+    margin-left: 10px;
+}
